@@ -24,7 +24,7 @@ import com.example.quiznow.viewModels.AuthViewModel
 
 // Main App Composable
 @Composable
-fun QuizApp(context: Context) {
+fun MainApp(context: Context) {
 
     val navController = rememberNavController()
     val factory = remember { QuizViewModelFactory(context.applicationContext) }
