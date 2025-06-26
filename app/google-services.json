@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "785650806325",
+    "project_id": "quiznow-bf6ff",
+    "storage_bucket": "quiznow-bf6ff.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785650806325:android:0980547e4703a416e20b7c",
+        "android_client_info": {
+          "package_name": "com.example.quiznow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJIUr-dCklGDBoUxQjc3ANILK4o4XV8Js"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
