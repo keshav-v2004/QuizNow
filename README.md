@@ -65,6 +65,11 @@ A modern and interactive **Quiz App** built using **Jetpack Compose** to help us
 
 ---
 
+## 🚀 App Demo Video
+https://youtube.com/shorts/qyAaOIUfGgg
+
+---
+
 ### 🔧 Setup Instructions
 
 1. **Clone the repository**
