@@ -12,7 +12,20 @@
           "package_name": "com.example.quiznow"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "785650806325-9kohkhfb6e4te4177m33ik632k0tuqc9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quiznow",
+            "certificate_hash": "9df933abf90e9c0e99099eb37ed56d38f1cd9f39"
+          }
+        },
+        {
+          "client_id": "785650806325-uktisnilm3gsuha0gsognfi5pkmt8gbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyAJIUr-dCklGDBoUxQjc3ANILK4o4XV8Js"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785650806325-uktisnilm3gsuha0gsognfi5pkmt8gbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
