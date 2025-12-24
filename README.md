@@ -1,79 +1,70 @@
-# 🧠 Computer Science Quiz App
+# 🧠 QuizNow — Learn Smarter with AI-Powered Practice
 
-A modern and interactive **Quiz App** built using **Jetpack Compose** to help users practice and master various topics in **Computer Science**. The app integrates with **Gemini AI** to generate fresh, non-repetitive questions. Users can **bookmark** questions they are unsure about, which are securely stored using **Firebase**. Authentication is handled through **Firebase Auth**, supporting both **email/password** and **Google Sign-In** options.
+**QuizNow** is a modern, interactive **Computer Science Quiz App** built with **Jetpack Compose**, designed to help learners consistently improve their CS fundamentals.  
+The app leverages **Gemini AI** to generate fresh, non-repetitive questions across a wide range of CS topics. Users can bookmark challenging questions, securely stored with **Firebase**, and access them anytime after signing in via **Email/Password** or **Google Sign-In**.
 
 ---
 
-## ✨ Features
+<img width="2784" height="1536" alt="quizNow-poster" src="https://github.com/user-attachments/assets/769cf3fb-d176-46c8-b966-69191f595ed7" />
 
-- 🎯 **AI-Generated Questions**
-  - Powered by **Gemini AI**, the app generates unique questions every time to keep practice sessions fresh and challenging.
-  - Eliminates repetition, improving learning efficiency.
 
-- 📚 **Wide Topic Coverage**
-  - Practice questions across multiple domains of Computer Science:
-    - Data Structures and Algorithms
-    - DevOPS
-    - Machine Learning
-    - AWS
-    - OOPS
-    - Data Science, and more.
 
-- 🔖 **Bookmark System**
-  - Users can bookmark questions they find difficult or important.
-  - Bookmarked questions are saved to the user's Firebase account for later review.
+## 📽️ App Demo 
 
-- 🔐 **User Authentication**
-  - Supports **Email and Password** authentication.
-  - Seamless **Google Sign-In** authentication.
+▶️ Watch the demo here:  
+[https://youtube.com/shorts/qyAaOIUfGgg](https://youtube.com/shorts/qyAaOIUfGgg)
 
-- 🖌️ **Modern Declarative UI**
-  - Built entirely with **Jetpack Compose**, offering a sleek and responsive interface.
-  - Optimized for performance and scalability.
+---
 
-- ☁️ **Firebase Integration**
-  - Realtime syncing of bookmarks and user sessions.
-  - Secure cloud data storage and retrieval.
+## ✨ Key Features
+
+### 🎯 AI-Generated Questions
+- Powered by **Gemini AI** for intelligent quiz generation.
+- Ensures **unique, non-repetitive** questions every session.
+- Keeps learning engaging and effective.
+
+### 📚 Comprehensive CS Topic Coverage
+Practice questions across multiple Computer Science domains:
+- Data Structures & Algorithms
+- Object-Oriented Programming (OOPS)
+- Machine Learning
+- Data Science
+- DevOps
+- AWS & Cloud Computing
+- And more…
+
+### 🔖 Smart Bookmarking
+- Bookmark questions you find difficult or important.
+- Bookmarks are securely stored in **Firebase**.
+- Review them anytime for focused revision.
+
+### 🔐 Secure Authentication
+- Email & Password authentication.
+- One-tap **Google Sign-In**.
+- User data and bookmarks are linked securely to accounts.
+
+### 🖌️ Modern Declarative UI
+- Fully built with **Jetpack Compose**.
+- Clean, responsive, and scalable UI.
+- Optimized for performance and smooth user experience.
+
+### ☁️ Firebase Integration
+- Firebase Auth for authentication.
+- Firestore or Realtime Database for bookmark storage.
+- Secure cloud-based data handling.
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer             | Technology                        |
-|------------------|------------------------------------|
-| UI                | Jetpack Compose                    |
-| Language          | Kotlin                             |
-| AI Integration    | Gemini API (REST/SDK)              |
-| Backend/Database  | Firebase Firestore or Realtime DB  |
-| Authentication    | Firebase Auth (Email & Google)     |
-| Networking        | Retrofit / Ktor                    |
-| Dependency Injection | Hilt / Koin (Optional)         |
+| Layer                    | Technology                              |
+|--------------------------|------------------------------------------|
+| UI                       | Jetpack Compose                          |
+| Language                 | Kotlin                                   |
+| AI Integration           | Gemini API (REST / SDK)                  |
+| Backend / Database       | Firebase Firestore / Realtime Database   |
+| Authentication           | Firebase Auth (Email & Google Sign-In)   |
+| Networking               | Retrofit                          |
 
 ---
 
-## 🚀 Getting Started
-
-### ✅ Prerequisites
-
-- Android Studio Giraffe (or later)
-- A Firebase project with:
-  - Firebase Authentication
-  - Firestore or Realtime Database
-- Google Cloud Console project with:
-  - Gemini API key
-  - SHA-1 FingerPrint for Google Sign-In
-
----
-
-## 🚀 App Demo Video
-https://youtube.com/shorts/qyAaOIUfGgg
-
----
-
-### 🔧 Setup Instructions
-
-1. **Clone the repository**
-
-```bash
-git clone https://github.com/yourusername/quiz-app.git
-cd quiz-app
